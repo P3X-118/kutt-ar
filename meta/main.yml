@@ -1,9 +1,9 @@
 ---
 galaxy_info:
-  author: Suguru Hirahara
-  company: progressiv
+  author: Oneill
+  company: SGC
   role_name: kutt
-  namespace: progressiv
+  namespace: P3X-118
   description: Kutt
   platforms:
     - name: Debian
