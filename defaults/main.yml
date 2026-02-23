@@ -180,7 +180,7 @@ kutt_hsts_preload_enabled: false
 
 # List of systemd services that the Kutt systemd service depends on
 kutt_systemd_required_services_list: "{{ kutt_systemd_required_services_list_default + kutt_systemd_required_services_list_auto + kutt_systemd_required_services_list_custom }}"
-kutt_systemd_required_services_list_default: "{{ [devture_systemd_docker_base_docker_service_name] if devture_systemd_docker_base_docker_service_name else [] }}"
+kutt_systemd_required_services_list_default: "{{ [sysd_docker_service] if sysd_docker_service else [] }}"
 kutt_systemd_required_services_list_auto: []
 kutt_systemd_required_services_list_custom: []
 
